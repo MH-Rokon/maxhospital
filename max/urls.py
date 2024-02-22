@@ -12,7 +12,7 @@ urlpatterns = [
     path('patient/', include('patient.urls')),
     path('doctor/', include('doctor.urls')),
     path('appointment/', include('appointment.urls')),
-    path('', views.index, name='index'),  
+    # path('', views.index, name='index'),  
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
