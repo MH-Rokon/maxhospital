@@ -18,8 +18,8 @@ SECRET_KEY = 'django-insecure-f89)gm*exsfrj6-0sf0xc!zl2!*e_$!6xe89qhlmf1nit@*jz4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://maxhospital.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
