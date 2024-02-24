@@ -21,7 +21,15 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['https://maxhospital.onrender.com','https://*.127.0.0.1']
 
-# Application definition
+
+
+CORS_ALLOWED_ORIGINS = [
+    'https://maxhospital.onrender.com',
+    'http://localhost:8000',  
+]
+
+API_URL = 'https://maxhospital.onrender.com'
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,7 +45,6 @@ INSTALLED_APPS = [
     'contact_us',
     'rest_framework',
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
