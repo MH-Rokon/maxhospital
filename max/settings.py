@@ -26,8 +26,9 @@ CSRF_TRUSTED_ORIGINS = ['https://maxhospital.onrender.com','https://*.127.0.0.1'
 
 
 CORS_ALLOWED_ORIGINS = [
+    'http://localhost:8000',
     'https://maxhospital.onrender.com',
-    'https://*.127.0.0.1',  
+    'https://*.127.0.0.1',   
 ]
 CORS_ORIGIN_ALLOW_ALL=True
 API_URL = 'https://maxhospital.onrender.com'
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'service',
     'contact_us',
     'rest_framework',
+     'corsheaders', 
     
 ]
 
@@ -57,6 +59,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+ 
+
 ]
 
 

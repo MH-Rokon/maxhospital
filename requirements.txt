@@ -1,7 +1,10 @@
 asgiref
+axios
 certifi
 cffi
 charset-normalizer
+click
+colorama
 contourpy
 cryptography
 cycler
@@ -20,7 +23,10 @@ imageio
 joblib
 kiwisolver
 lazy_loader
+lxml
+markdown-it-py
 matplotlib
+mdurl
 networkx
 numpy
 oauthlib
@@ -30,6 +36,7 @@ pillow
 psycopg2
 psycopg2-binary
 pycparser
+Pygments
 PyJWT
 pyparsing
 python-dateutil
@@ -37,6 +44,7 @@ python3-openid
 pytz
 requests
 requests-oauthlib
+rich
 scikit-image
 scikit-learn
 scipy
