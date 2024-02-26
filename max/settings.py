@@ -25,9 +25,9 @@ CSRF_TRUSTED_ORIGINS = ['https://maxhospital.onrender.com','https://*.127.0.0.1'
 
 CORS_ALLOWED_ORIGINS = [
     'https://maxhospital.onrender.com',
-    'http://localhost:8000',  
+    'https://*.127.0.0.1',  
 ]
-
+CORS_ORIGIN_ALLOW_ALL=True
 API_URL = 'https://maxhospital.onrender.com'
 
 
