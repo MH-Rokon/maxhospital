@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'max.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(      
-             default='postgres://maxhospital_user:MP86VFsXYZxPtzhWMYcz6enOdm8mYg94@dpg-cnbmm2la73kc73fisbtg-a.oregon-postgres.render.com/maxhospital',   
+             default='postgres://ice_z56k_user:4Djnjp0qhc91daCJH91pzGyMWPGqnF0G@dpg-cpe8idv109ks73erh7q0-a.oregon-postgres.render.com/ice_z56k',   
              
              )
              }
