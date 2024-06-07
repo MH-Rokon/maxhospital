@@ -98,8 +98,8 @@ WSGI_APPLICATION = 'max.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(      
-             default='postgres://ice_z56k_user:4Djnjp0qhc91daCJH91pzGyMWPGqnF0G@dpg-cpe8idv109ks73erh7q0-a.oregon-postgres.render.com/ice_z56k',   
-             
+             default='postgres://mybank_ykg4_user:0eqoCGnXvFnL0wLYauXgeWmw6SgpkkwC@dpg-cpemvunsc6pc73a02hi0-a.oregon-postgres.render.com/mybank_ykg4',   
+                      
              )
              }
 
